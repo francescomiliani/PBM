@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity ^0.8.0;
 
+import "./IERC173.sol";
+import "./IERC5679Ext1155.sol";
+
 /// @title PBM Specification interface 
 /// @notice The PBM (purpose bound money) allows us to add logical requirements on the use of sovTokens. 
 /// The PBM acts as wrapper around the sovTokens and implements the necessary business logic. 
