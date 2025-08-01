@@ -162,7 +162,7 @@ interface IPBMRC1 is IERC173, IERC5679Ext1155 {
     /// @param tokenId The identifier of the PBM token type
     /// @param amount The quantity of the PBM type involved in this transaction
     /// @param data Additional data without a specified format, based on EIP-5750
-    function unwrap(address from, address to, uint256 tokenId, uint256 amount, bytes memory data) internal; 
+    function unwrap(address from, address to, uint256 tokenId, uint256 amount, bytes memory data) external; 
 
     /// @notice Allows the creator of a PBM token type to retrieve all locked-up underlying sovTokens within that PBM.
     /// @dev Ensure that only the creator of the PBM token type or the contract owner can call this function. 
