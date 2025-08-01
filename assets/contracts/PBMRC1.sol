@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity ^0.8.0;
 
+import "./IPBMRC1.sol";
+import "./IERC5679Ext1155.sol";
+import "./IERC1155Metadata_URI.sol";
+
 /**
 *    @dev The ERC-165 identifier for this interface is 0x0e89341c.
 */
